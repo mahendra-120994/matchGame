@@ -1,0 +1,21 @@
+* {
+  font-family: 'Roboto';
+}
+.tab {
+  color: #ffffff;
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.active_tab {
+  color: #fec653;
+  border: solid #fec653;
+  border-width: 0 0 3px 0;
+}
+@media screen and (max-width: 767px) {
+  .tab {
+    font-size: 16px;
+  }
+}

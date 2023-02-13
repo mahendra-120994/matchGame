@@ -1,0 +1,92 @@
+.bg_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c0e3a;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.score_timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.app_logo {
+  width: 200px;
+}
+.nav_score {
+  color: #ffffff;
+  font-size: 20px;
+}
+.nav_timer {
+  color: #fec653;
+  font-size: 20px;
+}
+.score {
+  color: #fec653;
+  font-size: 20px;
+  margin: 10px;
+}
+.timer_logo {
+  width: 20px;
+  margin-right: 5px;
+  padding: 0;
+}
+.app_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+}
+.tab_container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.img {
+  width: 40%;
+  border-radius: 5px;
+}
+.list_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  list-style: none;
+  padding: 5px;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+  .app_logo {
+    width: 100px;
+  }
+  .app_container {
+    justify-content: center;
+  }
+  .score,
+  .nav_timer,
+  .nav_score {
+    font-size: 16px;
+  }
+  .img {
+    width: 80%;
+  }
+  .list_container {
+    width: 100%;
+  }
+}

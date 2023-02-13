@@ -1,0 +1,17 @@
+.list_item {
+  margin: 5px;
+}
+.thumbnail {
+  width: 100px;
+}
+.img_btn {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .thumbnail {
+    width: 60px;
+  }
+}
